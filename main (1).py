@@ -3,7 +3,7 @@ SubTotal = float(input("Please Type in your subtotal:"))
 # Tax rate assigned
 Rate = 0.15
 # Calculating tax
-tax = SubTotal + Rate
+tax = SubTotal * Rate
 # Calculating total
 Total = SubTotal + tax
 # Printing owed tax
